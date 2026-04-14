@@ -135,6 +135,10 @@ USAGE EXAMPLE:
     align-items: center;
   }
 
+  .tap-zone:focus {
+    outline: none;
+  }
+
   .tap-prev {
     left: 0;
     width: 33.333%;
@@ -165,8 +169,8 @@ USAGE EXAMPLE:
   }
 
   .tap-zone:focus-visible {
-    outline: 2px solid var(--color-white);
-    outline-offset: -2px;
+    outline: 1px solid rgba(255, 255, 255, 0.45);
+    outline-offset: -1px;
   }
 
   .tap-zone:hover .arrow-hint,
